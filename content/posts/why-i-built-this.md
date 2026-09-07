@@ -1,7 +1,7 @@
 ---
 title: Why I built this
 slug: why-i-built-this
-author: Ensō
+author: Simha
 date: '2026-08-20'
 tags:
   - meta
