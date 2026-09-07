@@ -10,26 +10,21 @@ featuredImage: ''
 published: true
 excerpt: Every other blogging platform wanted to own my content. This one doesn't.
 ---
+why i built this
 
-I've started and abandoned more blogs than I can count. Not because I ran out of things to say, but because every platform I tried eventually got in the way.
+so most blog platforms suck in one of two ways. either they own your content (wordpress db, wix, whatever, try leaving with everything intact, good luck with that) or they're technically yours but a pain in the ass to actually touch, like static site generators where changing one heading color means digging through a build config for 20 minutes.
 
-Hosted platforms lock your writing into someone else's database. Static site generators are great right up until you want to change a heading's color without touching a build config. Page builders are visual, but they hide your content behind a proprietary export format you can never fully leave.
+and then there's the visual builder type platforms. those are fine i guess but you're still trapped, just in a nicer looking cage. you didn't actually gain control you just got a prettier form to fill out.
 
-So this is an attempt at something else: a builder where **git is the database**. Every edit — a moved button, a rewritten headline, a new post — is a file change in a repository you own. No lock-in, because there's nothing to lock. You can `git clone` the whole site and walk away at any time.
+wanted something where the repo just IS the site. no database, nothing hidden, nothing exported into some proprietary format when you finally get sick of it. you edit stuff through a builder ui but under the hood it's all just writing to normal files. clone the folder and you have the entire thing. every post, every style change, all of it, sitting right there as plain text you can read without the tool at all.
 
-## How it works
+how it works roughly:
 
-The short version:
+- theme is just html with some extra tags marking what's editable
+- builder reads that and gives you an actual editor instead of making you touch raw html
+- edits get written to files, json or markdown depending on what it is
+- publish spits out plain html/css at the end, nothing fancy, no react no build step, you could host the output literally anywhere
 
-- A **theme** is just HTML with a few extra attributes marking which elements are editable.
-- The builder reads that theme and gives you a real visual editor on top of it.
-- Every change gets written back into the repo as plain JSON or markdown.
-- Publishing renders the whole thing to plain HTML/CSS — no framework required to view it.
+git handles all the history too so if i mess something up i can just go back, which honestly is half the reason i trust this more than clicking around in some dashboard.
 
-That's it. No hidden database, no vendor lock-in, no mystery meat.
-
-## What's next
-
-Themes, mostly. The current one is intentionally quiet — a little Ensō circle, some warm paper tones, nothing shouting for attention. I want to build a couple more before deciding this is "done."
-
-If you're reading this from the published site: it worked.
+still messing with themes. current one's fine but kinda plain, might build a couple more when i feel like it, might not.
