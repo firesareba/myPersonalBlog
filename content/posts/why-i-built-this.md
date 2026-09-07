@@ -7,12 +7,7 @@ tags:
   - meta
   - self-hosting
 featuredImage: >-
-  404  File not found  The site configured at this address does not contain the
-  requested file.  If this is your site, make sure that the filename case
-  matches the URL as well as any file permissions. For root URLs (like
-  http://example.com/) you must provide an index.html file.  Read the full
-  documentation for more information about using GitHub Pages. GitHub Status —
-  @githubstatus
+  https://github.com/firesareba/myPersonalBlog/blob/63c087207f800aee8f2a238e71088150ec8c34e7/assets/1788758796294-Screenshot_2026-09-06_at_10.26.19___PM.png
 published: true
 excerpt: Every other blogging platform wanted to own my content. This one doesn't.
 ---
