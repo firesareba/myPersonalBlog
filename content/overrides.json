@@ -1,0 +1,20 @@
+{
+  "overrides": {
+    "headline": {
+      "text": "Simhas Blog"
+    },
+    "hero-subhead": {
+      "text": "Stuff I build, break, my opinions, and what I think is cool as hell."
+    },
+    "site-title": {
+      "text": "Simhas Blog"
+    },
+    "about-text": {
+      "text": "I like building things, pissing off companies, staying off the beaten path, and doing things i like."
+    },
+    "footer-text": {
+      "text": "why are you down here, go back up lil bro."
+    }
+  },
+  "added": []
+}
