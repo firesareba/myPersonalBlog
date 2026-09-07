@@ -13,8 +13,18 @@
       "text": "I like building things, pissing off companies, staying off the beaten path, and doing things i like."
     },
     "footer-text": {
-      "text": "why are you down here, go back up lil bro."
+      "text": "Built directly in BlogBuilder. Hosted on my own hardware."
     }
   },
-  "added": []
+  "added": [
+    {
+      "id": "link-y-fi8t",
+      "tag": "a",
+      "kind": "link",
+      "parent": "site-footer",
+      "text": "Get BlogBuilder on GitHub",
+      "href": "https://github.com/firesareba/blogbuilder",
+      "style": {}
+    }
+  ]
 }
