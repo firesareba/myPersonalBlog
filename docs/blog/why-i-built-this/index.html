@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Why I built this - Ensō</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@500;700&amp;family=Zen+Kaku+Gothic+New:wght@400;500;700&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/theme.css">
+</head>
+<body>
+
+<header data-builder-id="site-header" data-builder-locked="true" class="site-header">
+  <div class="wrap header-row">
+    <span data-builder-id="site-title" class="site-title">Simhas Blog</span>
+    <nav data-builder-id="site-nav" class="site-nav">
+      <a data-builder-id="nav-home" href="/" class="nav-link">Home</a>
+      <a data-builder-id="nav-blog" href="/#latest-posts" class="nav-link">Writing</a>
+      <a data-builder-id="nav-about" href="/#about-me" class="nav-link">About</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap post-page">
+  <a href="/" class="back-link">← back home</a>
+  <h1 data-builder-id="post-title" class="post-title">Why I built this</h1>
+  <p data-builder-id="post-meta" class="post-meta">2026-08-20 · Ensō</p>
+  <div data-builder-id="post-content" class="post-content"><p>I've started and abandoned more blogs than I can count. Not because I ran out of things to say, but because every platform I tried eventually got in the way.</p>
+<p>Hosted platforms lock your writing into someone else's database. Static site generators are great right up until you want to change a heading's color without touching a build config. Page builders are visual, but they hide your content behind a proprietary export format you can never fully leave.</p>
+<p>So this is an attempt at something else: a builder where <strong>git is the database</strong>. Every edit — a moved button, a rewritten headline, a new post — is a file change in a repository you own. No lock-in, because there's nothing to lock. You can <code>git clone</code> the whole site and walk away at any time.</p>
+<h2>How it works</h2>
+<p>The short version:</p>
+<ul>
+<li>A <strong>theme</strong> is just HTML with a few extra attributes marking which elements are editable.</li>
+<li>The builder reads that theme and gives you a real visual editor on top of it.</li>
+<li>Every change gets written back into the repo as plain JSON or markdown.</li>
+<li>Publishing renders the whole thing to plain HTML/CSS — no framework required to view it.</li>
+</ul>
+<p>That's it. No hidden database, no vendor lock-in, no mystery meat.</p>
+<h2>What's next</h2>
+<p>Themes, mostly. The current one is intentionally quiet — a little Ensō circle, some warm paper tones, nothing shouting for attention. I want to build a couple more before deciding this is "done."</p>
+<p>If you're reading this from the published site: it worked.</p>
+</div>
+</main>
+
+<footer data-builder-id="site-footer" data-builder-locked="true" class="site-footer">
+  <div class="wrap footer-row">
+    <span data-builder-id="footer-text" class="footer-text">why are you down here, go back up lil bro.</span>
+  </div>
+</footer>
+
+
+
+</body></html>
