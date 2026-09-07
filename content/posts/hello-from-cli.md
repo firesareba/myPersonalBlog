@@ -1,7 +1,7 @@
 ---
 title: Hello from the CLI
 slug: hello-from-cli
-author: Ensō
+author: Simha
 date: '2026-09-05'
 tags: []
 featuredImage: ''
